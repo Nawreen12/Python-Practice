@@ -1,0 +1,104 @@
+Variables in Python:
+	A variable is just a container for storing data values.
+X = 22
+            print (X)
+            22
+       Here, X is variable and its value is 22. So when we print X it will interpret 22
+          Y= ‘TEA’
+Print ( Y)
+Tea
+Variable can be overwritten. 
+Y='Tea'
+Y= 'Coffee'
+print(Y)
+Coffee
+Variables are case sensitive.
+y='Tea'
+Y= 'Coffee'
+print(Y)
+coffee.
+	We can use multiple variables.
+x,y,z ='Tea','Coffee','Soft drinks'
+print(x)
+print(y)
+print(z)
+Tea
+Coffee
+Soft drinks
+	We can use a value to multiple variables.
+x=y=z= 'Water'
+print(x)
+print(y)
+print(z)
+Water
+Water
+Water
+	We can assign things like List, Dictionaries, tuple and set as a variable.
+ice_cream = ['Chocolate','Vanilla','Cone']
+x,y,z = ice_cream
+print(x)
+print(y)
+print(z)
+
+Naming Variable:
+Naming a variable is very important because it helps to understand others. We can name a variable in different way:
+***#Camel Case
+#Test Variable Case
+testVariableCase = 'Vanilla'
+
+***#Pascal Case
+#Test Variable Case
+TestVariableCase = 'Vanilla'
+
+
+
+***#Snake Case
+#Test Variable Case
+test_variable_case = 'Vanilla'
+
+***test_var = 'Vanilla'
+testvar = 'Vanilla'
+_test_var = 'Vanilla'
+testVar = 'Vanilla'
+Testvar'Vanilla'
+Testvar2 'Vanilla'
+
+We cannot name any variable like as following: 
+***2testvar =’vanilla’
+      test-var = ‘vanilla’	These doesn’t work 
+      test,var=’Vanilla’
+      test var =’vanilla’
+
+
+Operators with Variables:
+We can use ‘+’ sign and add two string.
+x= 'Ice cream is my favorite' + "."
+print(x)
+Ice cream is my favorite.
+
+We cannot add a string and a number together. Like
+X= ‘Ice cream is my favorite’ + 2   
+This will not work.
+
+We can also add 2 integers together.
+y=3+2
+print(y)
+5
+We can also add multiple string with print statement. 
+x= 'Ice cream'
+y= ' is'
+z= ' my favorite' 
+print(x+y+z)
+Ice ceam is my favorite'
+We can add multiple number with print statement.
+x= 2
+y= 4
+z= 4
+print(x+y+z)
+10
+We can combine a string and a number separating by a comma.
+x= 'There are' 
+y= 2
+z= ' Ice cream'
+print(x,y,z)
+There are 2 Ice cream.
